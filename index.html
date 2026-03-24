@@ -2,94 +2,61 @@
 <html lang="lt">
 <head>
 <meta charset="UTF-8">
-<title>APg25 Tvarkaraštis</title>
+<title>Tvarkaraštis</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h1>APg25</h1>
 
-<div class="timetable">
+<div class="schedule">
 
-    <!-- Header -->
-    <div class="header">Laikas</div>
-    <div class="header">Pi</div>
-    <div class="header">An</div>
-    <div class="header">Tr</div>
-    <div class="header">Ke</div>
-    <div class="header">Pe</div>
+    <!-- Dienos -->
+    <div class="day">Pi</div>
+    <div class="day">An</div>
+    <div class="day">Tr</div>
+    <div class="day">Ke</div>
+    <div class="day">Pe</div>
 
-    <!-- 1 -->
-    <div>8:30</div>
-    <div class="lesson istorija">Istorija</div>
-    <div class="lesson geografija">Geografija</div>
-    <div class="lesson it big">Kompiuteriai</div>
-    <div class="lesson biologija">Biologija</div>
-    <div class="lesson projektas">Projektas</div>
+    <!-- GRID fonas -->
+    <div class="grid"></div>
 
-    <!-- 2 -->
-    <div>9:25</div>
-    <div class="lesson matematika">Matematika</div>
-    <div class="lesson matematika">Matematika</div>
-    <div class="lesson it big"></div>
-    <div class="lesson matematika">Matematika</div>
-    <div class="lesson projektas"></div>
+    <!-- PAMOKOS -->
 
-    <!-- 3 -->
-    <div>10:20</div>
-    <div class="lesson lietuviu">Lietuvių</div>
-    <div class="lesson sportas big">Fizinis ugdymas</div>
-    <div class="lesson it"></div>
-    <div class="lesson fizika">Fizika</div>
-    <div class="lesson projektas"></div>
+    <!-- PIRMADIENIS -->
+    <div class="lesson istorija" style="top:0; left:0; height:60px;">Istorija</div>
+    <div class="lesson matematika" style="top:60px; left:0; height:60px;">Matematika</div>
+    <div class="lesson lietuviu" style="top:120px; left:0; height:60px;">Lietuvių</div>
+    <div class="lesson lietuviu" style="top:180px; left:0; height:60px;">Lietuvių</div>
+    <div class="lesson matematika" style="top:240px; left:0; height:60px;">Matematika</div>
+    <div class="lesson geografija" style="top:300px; left:0; height:60px;">Geografija</div>
+    <div class="lesson istorija" style="top:480px; left:0; height:60px;">Istorija</div>
 
-    <!-- 4 -->
-    <div>11:15</div>
-    <div class="lesson lietuviu">Lietuvių</div>
-    <div class="lesson sportas"></div>
-    <div class="lesson istorija">Istorija</div>
-    <div class="lesson lietuviu">Lietuvių</div>
-    <div class="lesson projektas"></div>
+    <!-- ANTRADIENIS -->
+    <div class="lesson geografija" style="top:0; left:120px; height:60px;">Geografija</div>
+    <div class="lesson matematika" style="top:60px; left:120px; height:60px;">Matematika</div>
+    <div class="lesson sportas" style="top:120px; left:120px; height:120px;">Fizinis ugdymas</div>
+    <div class="lesson matematika" style="top:240px; left:120px; height:60px;">Matematika</div>
+    <div class="lesson kalba" style="top:300px; left:120px; height:60px;">Anglų</div>
+    <div class="lesson lietuviu" style="top:360px; left:120px; height:60px;">Lietuvių</div>
+    <div class="lesson konsultacija" style="top:420px; left:120px; height:60px;">Konsultacija</div>
 
-    <!-- 5 -->
-    <div>12:30</div>
-    <div class="lesson matematika">Matematika</div>
-    <div class="lesson matematika">Matematika</div>
-    <div class="lesson lietuviu">Lietuvių</div>
-    <div class="lesson matematika">Matematika</div>
-    <div class="lesson projektas"></div>
+    <!-- TREČIADIENIS -->
+    <div class="lesson it" style="top:0; left:240px; height:180px;">Kompiuteriai</div>
+    <div class="lesson istorija" style="top:240px; left:240px; height:60px;">Istorija</div>
+    <div class="lesson lietuviu" style="top:300px; left:240px; height:60px;">Lietuvių</div>
+    <div class="lesson modulis" style="top:360px; left:240px; height:60px;">LK modulis</div>
+    <div class="lesson sportas" style="top:420px; left:240px; height:120px;">Fizinis</div>
 
-    <!-- 6 -->
-    <div>13:25</div>
-    <div class="lesson geografija">Geografija</div>
-    <div class="lesson kalba">Anglų k.</div>
-    <div class="lesson modulis">LK modulis</div>
-    <div class="lesson lietuviu">Lietuvių</div>
-    <div class="lesson projektas"></div>
+    <!-- KETVIRTADIENIS -->
+    <div class="lesson biologija" style="top:0; left:360px; height:120px;">Biologija</div>
+    <div class="lesson fizika" style="top:120px; left:360px; height:60px;">Fizika</div>
+    <div class="lesson matematika" style="top:180px; left:360px; height:60px;">Matematika</div>
+    <div class="lesson lietuviu" style="top:240px; left:360px; height:60px;">Lietuvių</div>
+    <div class="lesson matematika" style="top:300px; left:360px; height:60px;">Matematika</div>
 
-    <!-- 7 -->
-    <div>14:20</div>
-    <div></div>
-    <div class="lesson lietuviu">Lietuvių</div>
-    <div class="lesson sportas">Fizinis ugdymas</div>
-    <div class="lesson matematika">Matematika</div>
-    <div class="lesson projektas"></div>
-
-    <!-- 8 -->
-    <div>15:15</div>
-    <div></div>
-    <div class="lesson konsultacija">Konsultacija</div>
-    <div class="lesson sportas"></div>
-    <div></div>
-    <div class="lesson projektas"></div>
-
-    <!-- 9 -->
-    <div>16:20</div>
-    <div class="lesson istorija">Istorija</div>
-    <div></div>
-    <div class="lesson sportas"></div>
-    <div></div>
-    <div></div>
+    <!-- PENKTADIENIS -->
+    <div class="lesson projektas" style="top:0; left:480px; height:480px;">Projektinė veikla</div>
 
 </div>
 
