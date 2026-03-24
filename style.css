@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.timetable {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    margin: 20px;
+}
+
+.header {
+    font-weight: bold;
+    background: #ddd;
+    padding: 10px;
+}
+
+.lesson {
+    padding: 15px;
+    border-radius: 8px;
+    color: black;
+}
+
+/* spalvos */
+.istorija { background: #a8a4ff; }
+.matematika { background: #f4b183; }
+.it { background: #f9f59b; }
+.biologija { background: #f28c8c; }
+.sportas { background: #8fd19e; }
+.lietuviu { background: #ffe599; }
+.geografija { background: #c6e0b4; }
