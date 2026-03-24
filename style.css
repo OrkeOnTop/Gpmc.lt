@@ -3,41 +3,46 @@ body {
     text-align: center;
 }
 
-.schedule {
-    position: relative;
-    width: 600px;
-    height: 560px;
+h1 {
+    margin-bottom: 10px;
+}
+
+/* GRID */
+.table {
+    display: grid;
+    grid-template-columns: 80px repeat(5, 1fr);
+    grid-auto-rows: 60px;
+    gap: 6px;
+    max-width: 900px;
     margin: auto;
-    border: 1px solid #ccc;
 }
 
-/* Dienų pavadinimai */
+/* header */
 .day {
-    position: absolute;
-    top: -30px;
-    width: 120px;
-    text-align: center;
     font-weight: bold;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.day:nth-child(1) { left: 0; }
-.day:nth-child(2) { left: 120px; }
-.day:nth-child(3) { left: 240px; }
-.day:nth-child(4) { left: 360px; }
-.day:nth-child(5) { left: 480px; }
+/* laikas */
+.time {
+    font-size: 12px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* pamokos */
 .lesson {
-    position: absolute;
-    width: 110px;
-    margin: 5px;
     border-radius: 10px;
     padding: 5px;
-    box-sizing: border-box;
-    font-size: 12px;
+    font-size: 13px;
 }
 
-/* spalvos */
+/* SPALVOS */
 .istorija { background:#a8a4ff; }
 .matematika { background:#f4b183; }
 .it { background:#f9f59b; }
@@ -50,3 +55,8 @@ body {
 .modulis { background:#ffd966; }
 .projektas { background:#ff66b3; }
 .konsultacija { background:#ffcccc; }
+
+/* ilgos pamokos */
+.span2 { grid-row: span 2; }
+.span3 { grid-row: span 3; }
+.span7 { grid-row: span 7; }
